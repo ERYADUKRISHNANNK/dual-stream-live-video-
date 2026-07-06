@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\LOQ\\Documents\\yadu\\blockchain\\contracts\\DecentralizedID.sol": {
+      "lastModificationDate": 1783333239062,
+      "contentHash": "1373613e512ab74762ab5ff745783105",
+      "sourceName": "contracts/DecentralizedID.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "DecentralizedID"
+      ]
+    },
+    "C:\\Users\\LOQ\\Documents\\yadu\\blockchain\\contracts\\FileRegistry.sol": {
+      "lastModificationDate": 1783333231087,
+      "contentHash": "99f524243adf570abb79a0beb9c5146c",
+      "sourceName": "contracts/FileRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "FileRegistry"
+      ]
+    }
+  }
+}

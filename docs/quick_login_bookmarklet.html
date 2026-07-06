@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Quick Login Bookmarklet</title>
+</head>
+<body>
+  <h2>Quick Login Bookmarklet</h2>
+  <p>Drag the link below to your bookmarks bar. When the login page is open, click the bookmark to auto-fill and submit the known demo credentials.</p>
+  <p><a href="javascript:(function(){try{const u='YADUKRISHNAN N K',p='12345678';const inU=document.querySelector('input[placeholder=\'Enter account username\']')||document.querySelector('input[name=\'username\']')||document.querySelector('input[type=\'text\']');const inP=document.querySelector('input[type=\'password\']');if(inU){inU.focus();inU.value=u;inU.dispatchEvent(new Event('input',{bubbles:true}));} if(inP){inP.focus();inP.value=p;inP.dispatchEvent(new Event('input',{bubbles:true}));} const btn=Array.from(document.querySelectorAll('button')).find(b=>/VERIFY|LOGIN|SIGN IN/i.test(b.textContent||'')); if(btn){btn.click();} }catch(e){console.error(e);} })();">Quick Login (Aegis)</a></p>
+  <h3>Manual steps</h3>
+  <ol>
+    <li>Open the app login page (e.g. http://localhost:3001/login).</li>
+    <li>Click the <strong>Quick Login (Aegis)</strong> bookmark in your bookmarks bar.</li>
+  </ol>
+  <h3>Notes</h3>
+  <ul>
+    <li>The bookmarklet uses the demo credentials: <strong>YADUKRISHNAN N K / 12345678</strong>. Change these values in the file if you need a different account.</li>
+    <li>If the page uses different input placeholders or structure, edit the bookmarklet selectors in this file.</li>
+  </ul>
+</body>
+</html>
